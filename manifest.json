@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Make arXiv Red Again",
+  "version": "1.0.0",
+  "description": "Restores arXiv's iconic red banner, reverting the 2026 black header redesign.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://arxiv.org/*",
+        "*://*.arxiv.org/*"
+      ],
+      "css": ["arxiv-red.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
