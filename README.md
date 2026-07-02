@@ -7,13 +7,20 @@ Pure CSS. No JavaScript, no permissions, no network access.
 
 ## Install
 
+**Firefox and Firefox for Android**: install from
+[Firefox Add-ons](https://addons.mozilla.org/firefox/addon/make-arxiv-red-again/).
+
+**Chrome / Edge / Brave**: load it from source (see below).
+
+Then open any page on <https://arxiv.org>.
+
+## From source
+
 **Chrome / Edge / Brave**: go to `chrome://extensions`, turn on
 **Developer mode**, click **Load unpacked**, and pick this folder.
 
 **Firefox**: go to `about:debugging#/runtime/this-firefox`, click
 **Load Temporary Add-on**, and pick `manifest.json`.
-
-Then open any page on <https://arxiv.org>.
 
 ## Customize
 
